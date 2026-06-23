@@ -1,6 +1,6 @@
 # React Interview Lab
 
-Five isolated React + TypeScript exercises designed to simulate a 30-minute live-coding interview.
+Eight isolated React + TypeScript exercises designed to simulate a 30-minute live-coding interview.
 
 ## Quick start
 
@@ -29,6 +29,9 @@ The starter intentionally compiles while leaving the core behavior unfinished. S
 | 03 · Build an expense report | `map`, `filter`, and `reduce` | [`src/exercises/03-expense-report/README.md`](src/exercises/03-expense-report/README.md) |
 | 04 · Search support issues | effects, debounce, async cleanup | [`src/exercises/04-issue-search/README.md`](src/exercises/04-issue-search/README.md) |
 | 05 · Repair a shopping cart | immutable state and derived values | [`src/exercises/05-shopping-cart/README.md`](src/exercises/05-shopping-cart/README.md) |
+| 06 · Build an FAQ accordion | state, events, and conditional rendering | [`src/exercises/06-faq-accordion/README.md`](src/exercises/06-faq-accordion/README.md) |
+| 07 · Paginate a product list | slicing arrays and page boundaries | [`src/exercises/07-product-pagination/README.md`](src/exercises/07-product-pagination/README.md) |
+| 08 · Complete a countdown | intervals and effect cleanup | [`src/exercises/08-countdown-timer/README.md`](src/exercises/08-countdown-timer/README.md) |
 
 ## Project structure
 

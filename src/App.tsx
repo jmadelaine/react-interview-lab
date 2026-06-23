@@ -5,6 +5,9 @@ import { AddressBookExercise } from './exercises/02-address-book/AddressBookExer
 import { ExpenseReportExercise } from './exercises/03-expense-report/ExpenseReportExercise'
 import { IssueSearchExercise } from './exercises/04-issue-search/IssueSearchExercise'
 import { ShoppingCartExercise } from './exercises/05-shopping-cart/ShoppingCartExercise'
+import { FaqAccordionExercise } from './exercises/06-faq-accordion/FaqAccordionExercise'
+import { ProductPaginationExercise } from './exercises/07-product-pagination/ProductPaginationExercise'
+import { CountdownTimerExercise } from './exercises/08-countdown-timer/CountdownTimerExercise'
 
 const exercisePages: Record<string, React.ComponentType> = {
   'create-user': CreateUserExercise,
@@ -12,6 +15,9 @@ const exercisePages: Record<string, React.ComponentType> = {
   'expense-report': ExpenseReportExercise,
   'issue-search': IssueSearchExercise,
   'shopping-cart': ShoppingCartExercise,
+  'faq-accordion': FaqAccordionExercise,
+  'product-pagination': ProductPaginationExercise,
+  'countdown-timer': CountdownTimerExercise,
 }
 
 function useHashRoute() {
@@ -36,7 +42,7 @@ function HomePage() {
         </nav>
         <div className="hero-copy">
           <p className="eyebrow">Frontend practice suite</p>
-          <h1>Five problems.<br />Thirty minutes each.</h1>
+          <h1>Eight problems.<br />Thirty minutes each.</h1>
           <p className="hero-lede">
             Small, realistic React + TypeScript exercises built for live-coding
             interview practice. Read the brief, start a timer, and talk through
@@ -44,7 +50,7 @@ function HomePage() {
           </p>
         </div>
         <div className="hero-stats" aria-label="Practice suite summary">
-          <div><strong>5</strong><span>exercises</span></div>
+          <div><strong>8</strong><span>exercises</span></div>
           <div><strong>30</strong><span>minutes each</span></div>
           <div><strong>TS</strong><span>strict mode</span></div>
         </div>
