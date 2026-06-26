@@ -26,8 +26,8 @@ The starter intentionally compiles while leaving the core behavior unfinished. S
 | --- | --- | --- |
 | 01 · Create a teammate | async form submission | [`src/exercises/01-create-user/README.md`](src/exercises/01-create-user/README.md) |
 | 02 · Find a contact | filtering and sorting | [`src/exercises/02-address-book/README.md`](src/exercises/02-address-book/README.md) |
-| 03 · Build an expense report | `map`, `filter`, and `reduce` | [`src/exercises/03-expense-report/README.md`](src/exercises/03-expense-report/README.md) |
-| 04 · Search support issues | effects, debounce, async cleanup | [`src/exercises/04-issue-search/README.md`](src/exercises/04-issue-search/README.md) |
+| 03 · Filter candidates | derived filtered lists | [`src/exercises/03-candidate-filter/README.md`](src/exercises/03-candidate-filter/README.md) |
+| 04 · Wire a registration form | controlled form state | [`src/exercises/04-registration-form/README.md`](src/exercises/04-registration-form/README.md) |
 | 05 · Repair a shopping cart | immutable state and derived values | [`src/exercises/05-shopping-cart/README.md`](src/exercises/05-shopping-cart/README.md) |
 | 06 · Build an FAQ accordion | state, events, and conditional rendering | [`src/exercises/06-faq-accordion/README.md`](src/exercises/06-faq-accordion/README.md) |
 | 07 · Paginate a product list | slicing arrays and page boundaries | [`src/exercises/07-product-pagination/README.md`](src/exercises/07-product-pagination/README.md) |

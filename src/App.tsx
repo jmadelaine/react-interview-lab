@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react'
 import { exercises } from './exercises'
 import { CreateUserExercise } from './exercises/01-create-user/CreateUserExercise'
 import { AddressBookExercise } from './exercises/02-address-book/AddressBookExercise'
-import { ExpenseReportExercise } from './exercises/03-expense-report/ExpenseReportExercise'
-import { IssueSearchExercise } from './exercises/04-issue-search/IssueSearchExercise'
+import { CandidateFilterExercise } from './exercises/03-candidate-filter/CandidateFilterExercise'
+import { RegistrationFormExercise } from './exercises/04-registration-form/RegistrationFormExercise'
 import { ShoppingCartExercise } from './exercises/05-shopping-cart/ShoppingCartExercise'
 import { FaqAccordionExercise } from './exercises/06-faq-accordion/FaqAccordionExercise'
 import { ProductPaginationExercise } from './exercises/07-product-pagination/ProductPaginationExercise'
@@ -12,8 +12,8 @@ import { CountdownTimerExercise } from './exercises/08-countdown-timer/Countdown
 const exercisePages: Record<string, React.ComponentType> = {
   'create-user': CreateUserExercise,
   'address-book': AddressBookExercise,
-  'expense-report': ExpenseReportExercise,
-  'issue-search': IssueSearchExercise,
+  'candidate-filter': CandidateFilterExercise,
+  'registration-form': RegistrationFormExercise,
   'shopping-cart': ShoppingCartExercise,
   'faq-accordion': FaqAccordionExercise,
   'product-pagination': ProductPaginationExercise,
